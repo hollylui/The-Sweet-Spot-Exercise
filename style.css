@@ -1,0 +1,77 @@
+/* header ----------------------------------- */
+
+h1 {
+  font-size: 40px;
+}
+
+h1,
+h2,
+hr + p {
+  font-family: "Roboto", sans-serif;
+}
+
+h3,
+h4,
+h4,
+h5 + p {
+  font-family: "Lora", serif;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bolder;
+}
+
+h3 {
+  background-color: rgb(245, 150, 166);
+  font-size: 20px;
+  color: lightgrey;
+}
+
+h4 {
+  background-color: lightgrey;
+  color: rgb(236, 12, 217);
+}
+
+h5 {
+  background-color: yellow;
+}
+
+/* Element ---------------------------------------- */
+
+hr {
+  border-top: 1px solid;
+  opacity: 0.2;
+}
+ul {
+  list-style-type: none;
+  background-color: rgb(169, 255, 255);
+}
+/* link-------------------------------------------- */
+h5 + p:hover {
+  color: red;
+}
+
+a:hover {
+  color: red;
+}
+
+/* class---------------------------------------- */
+.chocolate {
+  background-color: rgb(255, 158, 245);
+  color: black;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+a:active {
+  color: orange;
+}
+
+a:visited {
+  color: rgb(255, 0, 212);
+}
